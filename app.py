@@ -9,6 +9,7 @@ import webbrowser
 import lightgbm as lgb
 from lime.lime_tabular import LimeTabularExplainer
 
+st.set_page_config(layout='centered')
 
 def predict_fn(x):
   # Function necessary to get probabilities to be used by LIME
